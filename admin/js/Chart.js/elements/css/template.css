@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+background: url(i/slice.jpg) repeat fixed;
+}
+
+
+#main-slider
+{
+background:url(i/bg.png) no-repeat;
+width:1003px;
+height:450px;
+margin:0px;
+}
+#main-slider h1
+{
+position:absolute;
+margin:40px;
+}
+
+#stage
+{
+position:absolute;
+margin-top:110px;
+margin-left:40px;
+}
+
+h4{
+margin:0px;
+padding:5px;
+}
+
+#title
+{
+background: #F2F2F2;
+border:1px solid #CCCCCC;
+list-style:none;
+margin-top:120px;
+margin-right:50px;
+float:right;
+padding:0px;
+max-width:200px;
+}
+#title li
+{
+display:block;
+max-width:200px;
+height:30px;
+border-top:1px solid #ffffff;
+border-bottom:1px solid  #CCCCCC;
+text-align:left;
+padding:7px;
+
+}
+#title li h4
+{
+position:absolute;
+z-index:12;
+}
+#title li:hover
+{
+background:#FFFFFF;
+}
+
+#arrow
+{
+padding:0px;
+margin-top:-12px;
+margin-left:-37px;
+
+position:relative;
+z-index:0;
+}
+
+#content
+{
+background:#FFFFFF;
+padding:15px;
+
+}
+
+a{
+color:#333333;
+
+}
+
+ul
+{
+list-style:disc;
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#stage ul { list-style:none; margin:0px; }
+#stage ul li { float:left; }
+
+table { font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:10px; }
